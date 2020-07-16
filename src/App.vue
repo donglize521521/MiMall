@@ -6,7 +6,6 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 import jsonp from 'jsonp'
 
 export default {
@@ -22,7 +21,7 @@ export default {
     }
   },
   mounted(){
-    let url = "https://www.imooc.com/activity/servicetime";
+    let url = "activity/servicetime";
     jsonp(url,(err,res)=>{
       let result = res;
       this.data = result;
