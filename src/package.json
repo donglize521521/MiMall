@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "jsonp": "^0.2.1",
+    "jsop": "^0.3.1"
+  }
+}
