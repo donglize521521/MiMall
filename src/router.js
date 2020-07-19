@@ -65,7 +65,7 @@ export default new Router({
         {
           path:'alipay',
           name:'alipay',
-          component:AliPay,
+          component:Alipay,
          }
         
       ]
